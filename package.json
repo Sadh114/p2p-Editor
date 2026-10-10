@@ -1,0 +1,11 @@
+{
+  "name": "p2p-editor",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Root convenience scripts for the P2P collaborative editor (Part 1).",
+  "scripts": {
+    "signaling": "npm --prefix signaling-server start",
+    "dev": "npm --prefix frontend run dev",
+    "install:all": "npm --prefix signaling-server install && npm --prefix frontend install"
+  }
+}

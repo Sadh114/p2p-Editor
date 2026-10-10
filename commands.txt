@@ -1,0 +1,3 @@
+cd signaling-server && npm start
+
+cd frontend && npm run dev -- --host
